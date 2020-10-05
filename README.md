@@ -1,6 +1,6 @@
 # platform_svg
 
-A new Flutter package.
+A new Flutter package. Works for iOS, Android and web apps
 
 ## Getting Started
 
