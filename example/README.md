@@ -1,5 +1,7 @@
 # example
 
+![Preview](example/preview/example.jpg)
+
 A new Flutter application.
 
 ## Getting Started
