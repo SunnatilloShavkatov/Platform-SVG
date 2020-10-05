@@ -1,9 +1,9 @@
 # platform_svg
 
+A new Flutter package. Works for iOS, Android and web apps
+
 ## Example 
 ![Preview](example/preview/example.jpg)
-
-A new Flutter package. Works for iOS, Android and web apps
 
 ## Getting Started
 
