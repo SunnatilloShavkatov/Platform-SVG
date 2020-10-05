@@ -7,11 +7,11 @@ import 'package:flutter_svg/svg.dart';
 class PlatformSvg {
   static Widget asset(String assetName,
       {double width,
-        double height,
-        BoxFit fit = BoxFit.contain,
-        Color color,
-        alignment = Alignment.center,
-        String semanticsLabel}) {
+      double height,
+      BoxFit fit = BoxFit.contain,
+      Color color,
+      alignment = Alignment.center,
+      String semanticsLabel}) {
     if (kIsWeb) {
       return Image.network("/assets/$assetName",
           width: width,
