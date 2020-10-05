@@ -1,5 +1,8 @@
 # platform_svg
 
+## Example 
+![Preview](example/preview/example.jpg)
+
 A new Flutter package. Works for iOS, Android and web apps
 
 ## Getting Started
