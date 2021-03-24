@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class PlatformSvg {
   static Widget asset(String assetName,
@@ -8,16 +8,16 @@ class PlatformSvg {
 
       /// If specified, the width to use for the SVG.  If unspecified, the SVG
       /// will take the width of its parent.
-      double width,
+      double? width,
 
       /// If specified, the height to use for the SVG.  If unspecified, the SVG
       /// will take the height of its parent.
-      double height,
+      double? height,
 
       /// How to inscribe the picture into the space allocated during layout.
       /// The default is [BoxFit.contain].
       BoxFit fit = BoxFit.contain,
-      Color color,
+      Color? color,
 
       /// How to align the picture within its parent widget.
       ///
@@ -47,9 +47,9 @@ class PlatformSvg {
       ///
       /// The value indicates the purpose of the picture, and will be
       /// read out by screen readers.
-      String semanticsLabel}) {
+      String? semanticsLabel}) {
     if (kIsWeb) {
-      return Image.network("/assets/$assetName",
+      return Image.network("$assetName",
           width: width,
           height: height,
           fit: fit,
