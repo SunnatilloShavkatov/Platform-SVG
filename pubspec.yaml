@@ -1,7 +1,7 @@
 name: platform_svg
 description: A new Flutter package. Works for iOS, Android, Linux, MacOS and Windows apps.
 version: 0.0.2
-author: Sunnatillo Shavkatov <sunnatilloshavkatov@gmail.com>
+author: Sunnatillo Shavkatov <sunnatilloshavkatov@gmail.com>  
 homepage: https://github.com/SunnatilloQuantic/Platform-SVG
 
 environment:
